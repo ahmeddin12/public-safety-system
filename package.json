@@ -1,0 +1,21 @@
+{
+  "name": "public-safety-system",
+  "version": "1.0.0",
+  "description": "Public Safety and Emergency System\r This is a web-based application designed to improve public safety and emergency response coordination. It enables citizens to send emergency alerts with one click, facilitates real-time communication between responders, and provides detailed incident reporting and management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "pg": "^8.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
