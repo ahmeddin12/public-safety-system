@@ -1,2 +1,15 @@
-./node_modules
-./.env
+# Ignore node_modules folder inside backend
+node_modules/
+
+# Ignore environment variable files
+.env
+
+# Ignore logs for backend
+*.log
+
+# Ignore debug logs for npm
+npm-debug.log*
+
+# Ignore build artifacts (if any, like dist or build directories)
+dist/
+build/
