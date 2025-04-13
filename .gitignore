@@ -1,1 +1,14 @@
-/backend/node_modules
+# Node modules
+node_modules/
+
+# Environment files
+.env
+
+# Log files
+*.log
+
+# npm debug file
+npm-debug.log*
+
+# Yarn files
+yarn-error.log*
